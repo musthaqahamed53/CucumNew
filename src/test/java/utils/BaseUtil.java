@@ -75,16 +75,6 @@ public class BaseUtil extends WebDriverConfig{
             }
     }
 
-    /**
-     * Takes screenshot whenever called
-     * @param scenario mentions scenario in feature file
-     */
-    public void takeScreenshot(Scenario scenario){
-        SimpleDateFormat datetime = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
-        String date = datetime.format(new Date());
-        WebDriver driverInstance = WebDriverConfig.getDriver();
-        final byte[] screenshot = ((TakesScreenshot) driverInstance).getScreenshotAs(OutputType.BYTES);
-        scenario.attach(screenshot, "image/png", scenario.getName() + " " + date);
-    }
+
 
 }
