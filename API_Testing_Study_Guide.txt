@@ -1,0 +1,49 @@
+API Testing Concepts and Interview Questions
+
+API Fundamentals
+- Web API Overview
+- Types of APIs: Public, Private, Partner, Composite
+- SOAP vs. REST
+- API Terminologies: Payload, Endpoint, Base URL, Resource
+- Pre-requisites for API testing
+
+HTTP Protocol & Methods
+- Request Components: Method, URL, Headers, Parameters, Body
+- Response Components: Status Code, Body, Headers
+- HTTP Methods: GET, POST, PUT, PATCH, DELETE
+- Question: What is the difference between PUT and PATCH?
+- Question: What are Idempotent methods and which ones belong to this category?
+- Key Headers: Content-Type, Authorization, Accept
+
+Status Codes
+- Categories: 2xx, 3xx, 4xx, 5xx
+- Question: Difference between 401 Unauthorized and 403 Forbidden?
+- Question: Difference between 500 Internal Server Error and 504 Gateway Timeout?
+
+Authentication & Authorization
+- Authentication vs. Authorization
+- Auth Types: Basic Auth, Bearer Token, API Keys, OAuth 1.0 and 2.0
+
+Testing Scenarios & Validation
+- Positive and Negative Testing
+- Functional testing of API logic
+- Response Validation: Status Codes, Body content, and Headers
+- JSON and XML Schema Validation
+- Parameter Testing: Path, Query, and Form parameters
+- Rate Limiting and Timeout Testing
+- Error Code and Message Validation
+
+Postman
+- Creating Requests
+- Collections and Folder Management
+- Environment vs. Global Variables
+- Pre-request Scripts vs. Tests Tab
+- Collection Runner
+- Exporting and Sharing Collections
+
+REST Assured & Automation
+- Basic Syntax: given(), when(), then()
+- Serialization and Deserialization using POJO classes
+- Handling Request and Response Specifications
+- File Uploads using multiPart()
+- Relaxed HTTPS Validation

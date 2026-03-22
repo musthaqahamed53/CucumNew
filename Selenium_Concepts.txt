@@ -1,0 +1,30 @@
+Selenium WebDriver Concepts
+
+- Introduction to Selenium & Components (IDE, RC, Grid, WebDriver)
+- Limitations: What cannot be automated using Selenium?
+- DOM (Document Object Model)
+- Selenium 3 vs. 4 Enhancements
+- WebDriver Architecture & W3C Protocol
+- Remote WebDriver & Super Driver concept
+- Question: WebDriver vs. ChromeDriver?
+- Locators: id, name, className, linkText, partialLinkText, tagName, cssSelector, xpath
+- XPath: Absolute vs. Relative, Axes (parent, child, following-sibling, etc.)
+- Relative Locators: above, below, toLeftOf, toRightOf, near
+- Javascript Executor
+- Select Class: Methods for dropdown handling
+- Actions Class: Keyboard and Mouse events
+- Question: perform() vs. build().perform()?
+- Waits: Implicit, Explicit (WebDriverWait), Fluent Wait
+- Expected Conditions
+- Window Handling (getWindowHandle, getWindowHandles)
+- Frames and Alerts handling
+- Question: Why are Actions a class and Alert an interface?
+- Question: driver.close() vs. driver.quit()?
+- Question: Navigate vs. Get?
+- Question: findElement vs. findElements?
+- Ways to Submit a form
+- Scrolling techniques (JS Executor vs. Actions)
+- Chrome vs. Chromium
+- Robot Class
+- Page Object Model (POM) Design Pattern
+- Page Factory and @FindBy annotation

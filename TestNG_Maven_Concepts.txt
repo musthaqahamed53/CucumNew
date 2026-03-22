@@ -1,0 +1,23 @@
+Maven & TestNG Concepts
+
+- Maven: Dependency Management, Structure, and Build Automation
+- Maven Lifecycle Phases (Validate, Compile, Test, Package, Verify, Install, Deploy)
+- Maven Clean, Build, and Site phases
+- TestNG Advantages and Data-Driven testing
+- TestNG Annotations sequence (@BeforeSuite to @AfterSuite)
+- @Test Attributes:
+  - Priority
+  - Grouping
+  - Dependency (dependsOnMethods/Groups)
+  - Invocation Count and Timeout
+  - expectedExceptions
+  - alwaysRun
+  - enabled
+- testng.xml Configuration (Parallel execution, thread-count, parameters)
+- Question: Assert vs. Verify?
+- Hard Asserts vs. Soft Asserts
+- Assert Methods (assertEquals, assertTrue, assertFalse)
+- Verbose attribute
+- Data Providers (@DataProvider)
+- Question: @Parameter vs. @DataProvider?
+- TestNG Listeners (ITestListener, ISuiteListener, IReporter, etc.)

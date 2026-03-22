@@ -1,0 +1,54 @@
+Java Concepts and Interview Questions
+
+Java Fundamentals
+- Class and Object
+- Attributes and Methods
+- Variables: Local, Instance, and Static
+- Data Types: Primitive vs. Non-Primitive
+- Wrapper Classes
+- Autoboxing and Unboxing
+
+Constructors & Keywords
+- Default Constructor
+- Parameterized Constructor
+- Question: What happens if I provide a non-parameterized constructor and initialize only some objects? Will Java initialize the remaining variables with default values?
+- Keywords: static, this, super, final
+- Static Variables vs. Instance Variables
+- Static Methods and Static Classes
+- Method Hiding
+
+Access & Error Handling
+- Access Modifiers: public, protected, default, private
+- Question: Can a subclass access private members of its superclass?
+- Question: Can a private method be accessed outside its class?
+- Exception Handling: try, catch, finally, throw, throws
+- Checked (Compile-time) vs. Unchecked (Runtime) Exceptions
+- Question: What is the main difference between IOException and FileNotFoundException?
+
+Object-Oriented Programming (OOPs)
+- Question: Why is OOP so important in Java?
+- Question: Why is Java not 100% Object-Oriented?
+- Encapsulation
+- Inheritance: Single, Multilevel, and Hierarchical
+- Question: What is the difference between extends and implements?
+- Abstraction: Abstract Classes vs. Interfaces
+- Question: What happens if a class does not implement all methods of an interface?
+- Question: Key differences between an abstract class and an interface?
+- Polymorphism: Static (Overloading) vs. Dynamic (Overriding)
+- Question: Why is polymorphism important?
+
+Data Structures & Strings
+- Arrays (Single and Multi-dimensional)
+- Strings (Immutability)
+- Question: Differences between String, StringBuffer, and StringBuilder?
+- Common String methods
+
+Java Collections Framework
+- Question: Difference between Collection (Interface) and Collections (Utility Class)?
+- List vs. Set vs. Map
+- ArrayList vs. LinkedList
+- Question: Array vs. ArrayList?
+- HashSet, LinkedHashSet, and TreeSet
+- HashMap, LinkedHashMap, and TreeMap
+- Question: Iterator vs. ListIterator?
+- Ways to iterate through a Map

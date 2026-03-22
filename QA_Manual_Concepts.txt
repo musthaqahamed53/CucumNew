@@ -1,0 +1,36 @@
+QA Fundamentals & Manual Testing Concepts
+
+- Manual Testing
+- SDLC (Software Development Life Cycle)
+- STLC (Software Testing Life Cycle)
+- Phases in STLC: Requirement Analysis, Test Planning, Test Case Development, Environment Setup, Test Execution, Test Cycle Closure
+- Defect Life Cycle (New, Assigned, Open, Fixed, Retest, Verified, Closed)
+- Priority vs. Severity
+- Question: Login page with save/cancel button does not have text - what is the priority and severity?
+- Functional vs. Non-functional Testing
+- Testing Levels: Unit, Integration, System, Acceptance
+- Regression vs. Retesting
+- Smoke vs. Sanity Testing
+- Risk-Based Testing
+- Black Box vs. White Box Testing
+- Alpha vs. Beta Testing
+- Exploratory, Compatibility, and Ad-hoc Testing
+- Performance Testing
+- User Acceptance Testing (UAT)
+- Static vs. Dynamic Testing
+- Monkey and Gorilla Testing
+- QA Terminologies: Jira, RTM (Forward, Backward, Bidirectional)
+- User Stories and Acceptance Criteria (Given-When-Then)
+- Test Scenario vs. Test Case
+- Test Case Design Techniques:
+  - Equivalence Partitioning
+  - Boundary Value Analysis
+  - Decision Tables
+  - State Transition Diagrams
+  - Orthogonal Arrays
+  - Use Case Testing
+- Structure-Based Techniques: Statement, Decision, Path, and Condition Coverage
+- Experience-Based Techniques: Exploratory Testing and Error Guessing
+- Verification vs. Validation
+- Project Models: Waterfall, Agile, Scrum (Roles, Ceremonies, Artifacts)
+- Root Cause Analysis (RCA)
